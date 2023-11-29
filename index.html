@@ -65,11 +65,11 @@
 
         /* Apply styles to the iframe container */
         .iframe-container {
-            width: 90%; /* Set a percentage value for width */
+            width: 100%; /* Set a percentage value for width */
             max-width: 600px; /* Set a maximum width for larger screens */
             height: 400px; /* Set the desired height */
             overflow: auto; /* Enable scrolling */
-            border: 1px solid #ccc; /* Add a border for visual clarity */
+            /* border: 1px solid #ccc; Add a border for visual clarity */
             margin: 0 auto; /* Center the container */
         }
 
@@ -79,6 +79,12 @@
             height: 100%;
             border: none; /* Remove iframe border */
             overflow: hidden; /* Hide iframe's own scroll bars */
+        }
+
+        .iframe-container h3 {
+            text-align: justify; 
+            background-color: black; 
+            color: aliceblue;
         }
     </style>
     <!--[if lt IE 9]>
@@ -429,7 +435,7 @@
 				<div class="col-md-4 col-sm-6 col-lg-4">
 					<div class="post-box">
                         <div class="iframe-container">
-                            <h4>Sample SOP</h4>
+                            <h3>Sample SOP</h3>
                             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7133495664004460544" title="Embedded post"></iframe>
                         </div>
                         </p>
@@ -438,7 +444,7 @@
 				<div class="col-md-4 col-sm-6 col-lg-4">
 					<div class="post-box">
                          <div class="iframe-container">
-                            <h4>Proof of English Langauge Waiver</h4>
+                            <h3>Proof of English Langauge Waiver</h3>
                             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7135643548309188608" title="Embedded post"></iframe>
 						</div>
 					</div>
